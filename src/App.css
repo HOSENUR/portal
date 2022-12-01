@@ -3,6 +3,24 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    @apply font-bebas p-5 bg-black text-white;
+body {
+    @apply font-bebas p-5 bg-gray-100;
+}
+
+@layer utilities {
+    .animation-delay-2000 {
+        animation-delay: 2s;
+    }
+
+    .animation-delay-4000 {
+        animation-delay: 4s;
+    }
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
