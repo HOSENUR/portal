@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 body {
-    @apply font-bebas p-5 bg-gray-100;
+    @apply font-bebas p-5 bg-black text-white;
 }
 
 @layer utilities {

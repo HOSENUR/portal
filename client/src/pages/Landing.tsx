@@ -6,7 +6,8 @@ export default function Landing() {
     <div>
 
       <Infinity />
-      <Card/>
+
+      <Card />
     </div>
 
   )
