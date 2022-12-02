@@ -1,0 +1,14 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.1",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "chai": "^4.3.7",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.12.3"
+  }
+}
